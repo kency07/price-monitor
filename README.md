@@ -146,6 +146,23 @@ price-monitor/
 ---
 ## 🛠 Installation & Setup
 
+### Clone the repository
+Clone or download the project, then navigate into the folder
+
+```bash
+git clone  https://github.com/kency07/price-monitor.git
+cd  price-monitor
+```
+### Create and activate a virtual environment
+
+```bash 
+python -m venv venv
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+```
+
 ### Requirements
 
 - Python 3.10+
@@ -287,6 +304,11 @@ Reliability is prioritized over perfection.
 Products: 1–750 (CSV driven, scalable by design)
 Execution: CLI (cron / scheduler friendly)
 ```
+---
+## ⚖️ License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 ---
 👨‍💻 Author
 
