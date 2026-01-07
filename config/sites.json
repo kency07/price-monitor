@@ -1,0 +1,14 @@
+{
+  "site_a": {
+    "name": "Example Store A",
+    "currency": "INR",
+    "price_selector": ".price",
+    "price_attribute": null
+  },
+  "site_b": {
+    "name": "Example Store B",
+    "currency": "INR",
+    "price_selector": "span.product-price",
+    "price_attribute": null
+  }
+}
