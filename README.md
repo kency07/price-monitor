@@ -223,6 +223,7 @@ product_id,product_name,site,product_url,target_price
 
 ```
 Sample CSV files are included for reference. Replace them with your own data when running the script.
+
 ---
 
 ## 📤 Output Format — price_history.csv
