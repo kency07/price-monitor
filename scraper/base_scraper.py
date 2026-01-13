@@ -43,12 +43,17 @@ class BaseScraper:
         """
 
         # Case 1: invalid or empty
-        if not isinstance(raw_price, str) or not raw_price:
+        if not isinstance(raw_price, str) or not raw_price.strip():
             return None
 
+        # Case 2: raw_price is not a string or empty
+        # if not isinstance(raw_price, str) or not raw_price.strip():
+            # return None
+            
         # Case 2: string price
-        digits = re.search(r"\d+(?:\.\d+)?", raw_price.replace(",", ""))
-        return float(digits[0]) if digits else None
+        clean_price= raw_price.replace(",", "")
+        match = re.search(r"\d+(?:\.\d+)?", clean_price)
+        return float(match.group()) if match else None
 
     def extract_price(self, html, selector, attribute=None):
 

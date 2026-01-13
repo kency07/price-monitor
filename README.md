@@ -235,6 +235,8 @@ timestamp,product_id,price
 ---
 ## 🖥 Console Output (Minimal but Clear)
 
+This output is from a sample run using placeholder URLs for demonstration purposes.
+
 Example:
 
 ```
